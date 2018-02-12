@@ -2,11 +2,11 @@
 #define ROT_13
 #include <string>
 
-class Rot13
+class Rot13 : public Cypher
 {
 
 public:
-	void Rot13();
+	Rot13();
 	string encrypt(string unencrypted);
 	string decrypt(string encrypted);
 };
