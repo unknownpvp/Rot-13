@@ -34,5 +34,7 @@ do
 		cin >> oFile;
 		decrypt(inFile,oFile);
 	}
+}
 while(option!=0);
+
 }
