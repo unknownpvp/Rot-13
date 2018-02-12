@@ -1,8 +1,9 @@
 #ifndef SUBSTITUTION_H
 #define SUBSTITUTION_H
 #include <string>
+using namespace std;
 
-class Substitution
+class Substitution : public Cypher
 {
 
 private:
@@ -11,8 +12,8 @@ private:
 
 public:
 	Substitution(string key);
-	encrypt(string unencrypted);
-	decrypt(string encrypted);
+	string encrypt(string unencrypted);
+	string decrypt(string encrypted);
 	string substitute(string original, string key);
 };
 #endif
