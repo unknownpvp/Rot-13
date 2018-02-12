@@ -10,11 +10,11 @@ private:
 
 public:
 	void Cypher();
-	string encrypt(string unencrypted);
-	string decrypt(string encrypted);
+	virtual string encrypt(string unencrypted) = 0;
+	virtual string decrypt(string encrypted) = 0;
 	int chars_processed();
 
 protected:
 	chars_processed(int num);
-
+};
 #endif
