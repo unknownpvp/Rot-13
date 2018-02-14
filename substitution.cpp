@@ -1,10 +1,10 @@
 #include "substitution.h"
+using namespace std;
 
 Substitution::Substitution(string key) : _key{key}, _dekey{key}{}
 
 string Substitution::encrypt(string unencrypted)
 {
-
 
 }
 

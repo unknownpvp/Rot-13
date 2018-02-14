@@ -1,6 +1,7 @@
 #ifndef SUBSTITUTION_H
 #define SUBSTITUTION_H
 #include <string>
+#include "cypher.h"
 using namespace std;
 
 class Substitution : public Cypher

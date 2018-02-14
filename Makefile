@@ -15,4 +15,4 @@ rot13.o: rot13.cpp rot13.h
 substitution.o: substitution.cpp substitution.h
 	$(CXX) $(CXXFLAGS) -c substitution.cpp
 clean:
-	-rm -f *.o *.gch *~ a.out encode
+	-rm -f *.o *.gch *~ a.out encode *.rot13 *.subst
