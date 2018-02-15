@@ -17,7 +17,7 @@ for(int i=0;i<unencrypted.length();i++)
         }
         else
         {
-                ePhrase.append(1,unencrypted[i]-13);
+               ePhrase.append(1,unencrypted[i]-13);
         }
 }
 return ePhrase;
